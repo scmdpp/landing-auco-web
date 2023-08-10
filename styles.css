@@ -1,0 +1,39 @@
+/* Link your custom font */
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/Rustica-Extra-Light.ttf') format('ttf'),
+         url('fonts/Rustica-Light.ttf') format('ttf'),
+         url('fonts/Rustica-Medium.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply custom styles to the page content */
+.container {
+    font-family: 'CustomFont', sans-serif; /* Use your custom font */
+}
+
+.titulo{
+    color: var(--cimiento, #0A3323);
+    font-family: Rustica;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subtitulo{
+    color: var(--cimiento, #0A3323);
+    font-family: Rustica;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.center-content {
+            min-height: 65vh; /* Set a minimum height of the viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
